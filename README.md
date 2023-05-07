@@ -15,3 +15,7 @@ An application where users can rent bike.
 
 
 ![sign up](https://user-images.githubusercontent.com/92950796/236668117-8825c140-972d-437b-9c8c-334067677f4b.jpg)
+
+#Day3:
+
+->Added Google firebase for Email Authentication.
