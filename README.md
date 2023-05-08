@@ -19,3 +19,10 @@ An application where users can rent bike.
 #Day3:
 
 ->Added Google firebase for Email Authentication.
+
+#Day4:
+
+->Added Navigation menu and Updated its account section to enable user to update their email.
+
+![navigation](https://user-images.githubusercontent.com/92950796/236835128-8e701670-815f-4cef-9df0-108868e12438.jpg)
+
