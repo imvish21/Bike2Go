@@ -1,5 +1,5 @@
 # Bike2Go
-An application where users can rent bike.
+An android based application where users can rent bike.
 
 #Day1:
 
@@ -26,3 +26,6 @@ An application where users can rent bike.
 
 ![navigation](https://user-images.githubusercontent.com/92950796/236835128-8e701670-815f-4cef-9df0-108868e12438.jpg)
 
+#Day5:
+
+->Added features for user to update Email ,Username and Profile Image by using Google Firebase Storage. 
