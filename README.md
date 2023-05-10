@@ -29,3 +29,11 @@ An android based application where users can rent bike.
 #Day5:
 
 ->Added features for user to update Email ,Username and Profile Image by using Google Firebase Storage. 
+
+#Day6:
+
+->Added some details in Home Page Design.
+
+![HomeDesign1](https://github.com/imvish21/Bike2Go/assets/92950796/d834943e-14e7-4d4a-92c1-338ea70179f1)
+
+
