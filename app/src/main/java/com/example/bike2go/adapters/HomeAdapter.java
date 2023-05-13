@@ -11,6 +11,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.bike2go.R;
+import com.example.bike2go.listeners.ItemListener;
 import com.example.bike2go.model.Item;
 
 import java.util.List;
@@ -19,11 +20,13 @@ public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.ViewHolder> {
 
     private Context context;
     private List<Item> itemList;
+    private ItemListener itemListener;
 
 
-    public HomeAdapter(Context context, List<Item>itemList) {
+    public HomeAdapter(Context context, List<Item>itemList,ItemListener itemListener) {
         this.context = context;
         this.itemList = itemList;
+        this.itemListener = itemListener;
     }
 
     @NonNull
@@ -60,6 +63,13 @@ public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.ViewHolder> {
             price = itemView.findViewById(R.id.price);
             shortDescription = itemView.findViewById(R.id.short_description);
 
+
+            itemView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    itemListener.OnItemPosition(getAdapterPosition());
+                }
+            });
 
         }
     }

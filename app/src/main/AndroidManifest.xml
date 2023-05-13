@@ -13,6 +13,13 @@
         android:theme="@style/Theme.Bike2Go"
         tools:targetApi="31">
         <activity
+            android:name=".DetailsActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".screens.HomeActivity"
             android:exported="false">
             <meta-data

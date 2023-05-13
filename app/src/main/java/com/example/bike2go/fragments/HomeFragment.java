@@ -1,6 +1,7 @@
 package com.example.bike2go.fragments;
 
 import android.content.ClipData;
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
@@ -15,13 +16,15 @@ import android.view.ViewGroup;
 
 import com.example.bike2go.R;
 import com.example.bike2go.adapters.HomeAdapter;
+import com.example.bike2go.listeners.ItemListener;
 import com.example.bike2go.model.Item;
+import com.example.bike2go.screens.DetailsActivity;
 
 import java.util.ArrayList;
 import java.util.List;
 
 
-public class HomeFragment extends Fragment {
+public class HomeFragment extends Fragment implements ItemListener {
 
      private RecyclerView topDealRV;
      private HomeAdapter adapter;
@@ -46,11 +49,17 @@ public class HomeFragment extends Fragment {
         itemList.add(new Item("Rs. 600"," Kawasaki Ninja 300"));
         itemList.add(new Item("Rs. 800","PULSAR RS 200"));
 
-         adapter = new HomeAdapter(getContext(),itemList);
+         adapter = new HomeAdapter(getContext(),itemList,this);
          LinearLayoutManager linearLayoutManager = new LinearLayoutManager(getContext());
          linearLayoutManager.setOrientation(LinearLayoutManager.HORIZONTAL);
          topDealRV.setLayoutManager(linearLayoutManager);
          topDealRV.setAdapter(adapter);
 
+    }
+
+    @Override
+    public void OnItemPosition(int position) {
+        Intent intent = new Intent(getContext(), DetailsActivity.class);
+        startActivity(intent);
     }
 }

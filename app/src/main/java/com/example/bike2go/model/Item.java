@@ -6,11 +6,12 @@ public class Item {
 
     private String price;
 
-    private List<Integer> images;
+
     private String description;
     private String shortDescription;
+    private String image;
 
-    private int totalImages;
+
 
     public Item() {
     }
@@ -22,18 +23,20 @@ public class Item {
 
     }
 
-    public Item(String price, List<Integer> images, String description, String shortDescription, int totalImages) {
+    public Item(String price, String description, String shortDescription, String image) {
         this.price = price;
-
-        this.images = images;
         this.description = description;
-
         this.shortDescription = shortDescription;
-        this.totalImages = totalImages;
+        this.image = image;
     }
 
+    public String getImage() {
+        return image;
+    }
 
-
+    public void setImage(String image) {
+        this.image = image;
+    }
 
     public String getPrice() {
         return price;
@@ -43,13 +46,7 @@ public class Item {
         this.price = price;
     }
 
-    public List<Integer> getImages() {
-        return images;
-    }
 
-    public void setImages(List<Integer> images) {
-        this.images = images;
-    }
 
     public String getDescription() {
         return description;
@@ -67,11 +64,5 @@ public class Item {
         this.shortDescription = shortDescription;
     }
 
-    public int getTotalImages() {
-        return totalImages;
-    }
 
-    public void setTotalImages(int totalImages) {
-        this.totalImages = totalImages;
-    }
 }
