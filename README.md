@@ -1,6 +1,10 @@
 # Bike2Go
 An android based application where users can rent bike.
 
+Programming Language : Java
+Database Used : Google Firebase 
+Software/Tools : Android Studio
+
 #Day1:
 
 ->Added the animated splash screen.
