@@ -44,6 +44,7 @@ An android based application where users can rent bike.
 
 ![detail_act](https://github.com/imvish21/Bike2Go/assets/92950796/9f236fb6-901e-4ba0-9638-a7856f958731)
 
+#Day9:Connected the details page with our Google Firebase Database.
 
 
 
