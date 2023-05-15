@@ -2,7 +2,9 @@
 An android based application where users can rent bike.
 
 Programming Language : Java
+
 Database Used : Google Firebase 
+
 Software/Tools : Android Studio
 
 #Day1:
