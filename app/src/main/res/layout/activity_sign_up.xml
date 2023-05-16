@@ -6,7 +6,6 @@
     android:layout_height="match_parent"
     android:background="@color/light_grey"
     tools:context=".screens.SignUpActivity">
-
     <TextView
         android:id="@+id/welcome"
         android:layout_width="match_parent"
@@ -18,7 +17,6 @@
         android:layout_marginTop="16dp"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"/>
-
     <TextView
         android:id="@+id/rental_app"
         android:layout_width="match_parent"
@@ -31,7 +29,6 @@
         android:layout_marginEnd="16dp"
         android:textStyle="bold"
         />
-
     <LinearLayout
         android:background="@drawable/layout_bg"
         android:layout_marginTop="150dp"
@@ -45,15 +42,10 @@
         <androidx.core.widget.NestedScrollView
             android:layout_width="match_parent"
             android:layout_height="match_parent">
-
             <LinearLayout
                 android:orientation="vertical"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
-
-
-
-
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -143,8 +135,6 @@
                     android:textColor="@color/dark_orange"
                     android:textAlignment="center"
                     android:textStyle="bold"/>
-
-
             </LinearLayout>
         </androidx.core.widget.NestedScrollView>
 
