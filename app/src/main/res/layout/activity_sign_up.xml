@@ -57,7 +57,7 @@
                     android:textColor="@color/black"
                     android:textSize="26sp"
                     android:textStyle="bold"/>
-
+                   //User will enter his user name
                 <EditText
                     android:id="@+id/user_name"
                     android:layout_width="match_parent"
@@ -68,7 +68,7 @@
                     android:textColor="@color/black"
                     android:background="@drawable/edit_bg"
                     android:padding="24dp"/>
-
+                //User will enter a verified email ID
                 <EditText
                     android:id="@+id/user_email"
                     android:layout_width="match_parent"
@@ -79,7 +79,7 @@
                     android:textColor="@color/black"
                     android:background="@drawable/edit_bg"
                     android:padding="24dp"/>
-
+                //Password will be of more than 5 digits
                 <EditText
                     android:id="@+id/user_password"
                     android:layout_width="match_parent"
@@ -90,7 +90,7 @@
                     android:textColor="@color/black"
                     android:background="@drawable/edit_bg"
                     android:padding="24dp"/>
-
+                //Reenter the same password
                 <EditText
                     android:id="@+id/user_confirm_password"
                     android:layout_width="match_parent"
