@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".SplashActivity">
-
+    // We downloaded this animation from lottiefiles.com
     <com.airbnb.lottie.LottieAnimationView
         android:id="@+id/animationView"
         android:layout_width="match_parent"
@@ -20,7 +20,7 @@
         app:lottie_loop="true"
         app:lottie_rawRes="@raw/bike"
         tools:ignore="MissingConstraints" />
-
+      // This text will our app name "BIKE2GO"
     <TextView
         android:id="@+id/textView"
         android:layout_width="446dp"
