@@ -1,19 +1,20 @@
+//This file is for bottom menu
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
-
+     //Home button option
      <item android:icon="@drawable/ic_home"
          android:id="@+id/menu_home"
          android:title="Home"/>
-
+     //Saved Bikes section
     <item android:icon="@drawable/ic_favorite"
         android:id="@+id/menu_fav"
         android:title="Favorite"/>
-
+     //In this section we can talk with the bike provider
     <item android:icon="@drawable/ic_chat"
         android:id="@+id/menu_chat"
         android:title="Chat"/>
-
+     //This section will show the account details of the user
     <item android:icon="@drawable/ic_account"
         android:id="@+id/menu_account"
         android:title="Account"/>
