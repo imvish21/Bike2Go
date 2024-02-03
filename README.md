@@ -1,5 +1,5 @@
 # Bike2Go
-An android based application where users can rent bike.
+An android based application where users can rent bike built on Android Studio.
 
 Programming Language : Java
 
